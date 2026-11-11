@@ -1,0 +1,13 @@
+.pagina-interior {
+  min-height: calc(100vh - 250px);
+}
+
+.titulo-carrito-verde {
+  color: #1b5e20;
+}
+
+.img-carrito-item {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}

@@ -1,0 +1,62 @@
+/* Colores de identidad */
+:root {
+  --verde-huerto: #2E8B57;
+  --verde-oscuro: #1b5e20;
+  --marron-logo: #8B4513;
+}
+
+/* Enlaces de la barra superior */
+.top-bar-link {
+  color: var(--verde-huerto);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.top-bar-link:hover {
+  color: var(--verde-oscuro);
+  text-decoration: underline;
+}
+
+/* Logo */
+.logo-titulo {
+  color: var(--marron-logo);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* Enlaces de navegación */
+.nav-link-custom {
+  color: #495057;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 6px 12px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link-custom:hover,
+.nav-link-custom.activo {
+  color: var(--verde-huerto);
+}
+
+/* Botón estilo cápsula del Carrito */
+.btn-carrito-custom {
+  background-color: var(--verde-huerto);
+  color: #ffffff !important;
+  padding: 8px 18px;
+  border-radius: 50rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-carrito-custom:hover {
+  background-color: var(--verde-oscuro);
+  transform: scale(1.02);
+}

@@ -1,0 +1,47 @@
+.admin-usuarios-bg {
+  background-color: #ededed;
+}
+
+.tabla-usuarios-container {
+  max-width: 1200px;
+  border-color: #333333 !important;
+}
+
+.btn-nuevo-usuario {
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  padding: 6px 14px;
+}
+
+.tabla-ordenes {
+  border-collapse: collapse;
+}
+
+.table-light-header th {
+  background-color: #d1d5db !important;
+  color: #1f2937;
+  font-size: 0.8rem;
+  border-bottom: 2px solid #9ca3af;
+}
+
+.tabla-ordenes tbody tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+.tabla-ordenes tbody tr:nth-of-type(even) {
+  background-color: #f3f4f6;
+}
+
+.tabla-ordenes td {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.paginador-custom .btn {
+  border-color: #4b5563 !important;
+  border-radius: 0 !important;
+}
+
+.paginador-custom .btn-primary {
+  background-color: #60a5fa !important;
+  border-color: #4b5563 !important;
+}

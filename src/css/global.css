@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+:root {
+  /* Paleta Corporativa Huerto Hogar */
+  --verde-esmeralda: #2E8B57;
+  --verde-oscuro: #1b5e20;
+  --marron-encabezados: #8B4513;
+  --amarillo-promo: #FFD700;
+  --fondo-suave: #F7F7F7;
+  --texto-principal: #333333;
+  --borde-suave: #e2e8f0;
+}
+
+/* Configuración Base */
+body {
+  background-color: var(--fondo-suave);
+  color: var(--texto-principal);
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Tipografía de Encabezados */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Playfair Display', serif;
+  color: var(--marron-encabezados);
+}
+
+/* Enlaces globales */
+a {
+  color: var(--verde-esmeralda);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--verde-oscuro);
+}
+
+/* Adaptación de Botones de Bootstrap a la Paleta */
+.btn-success,
+.btn-primary {
+  background-color: var(--verde-esmeralda) !important;
+  border-color: var(--verde-esmeralda) !important;
+  color: #ffffff !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-success:hover,
+.btn-primary:hover {
+  background-color: var(--verde-oscuro) !important;
+  border-color: var(--verde-oscuro) !important;
+}
+
+.btn-outline-success {
+  color: var(--verde-esmeralda) !important;
+  border-color: var(--verde-esmeralda) !important;
+  font-weight: 600;
+}
+
+.btn-outline-success:hover {
+  background-color: var(--verde-esmeralda) !important;
+  color: #ffffff !important;
+}
+
+/* Insignias / Badges de oferta o promoción */
+.badge-promo {
+  background-color: var(--amarillo-promo) !important;
+  color: #333333 !important;
+  font-weight: 600;
+}
+
+/* Focus accesible en campos de formulario Bootstrap */
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--verde-esmeralda);
+  box-shadow: 0 0 0 0.25rem rgba(46, 139, 87, 0.25);
+}

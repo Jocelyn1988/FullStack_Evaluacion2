@@ -1,0 +1,26 @@
+.admin-sidebar {
+  width: 220px;
+  min-width: 220px;
+}
+
+.admin-sidebar .nav-link {
+  font-size: 0.9rem;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.admin-sidebar .nav-link.active {
+  background-color: #0d6efd !important;
+  color: #ffffff !important;
+}
+
+.admin-card-action {
+  background-color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.admin-card-action:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08) !important;
+}
