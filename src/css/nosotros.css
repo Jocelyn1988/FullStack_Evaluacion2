@@ -1,0 +1,18 @@
+.titulo-nosotros-verde {
+  color: #1b5e20;
+}
+
+.subtitulo-nosotros {
+  max-width: 650px;
+}
+
+.tarjeta-nosotros,
+.tarjeta-valor {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta-nosotros:hover,
+.tarjeta-valor:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08) !important;
+}

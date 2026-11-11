@@ -1,0 +1,29 @@
+.titulo-hero,
+.titulo-seccion,
+.titulo-producto {
+  font-family: 'Playfair Display', serif;
+  color: #8B4513;
+}
+
+.hero-img {
+  max-height: 280px;
+  object-fit: contain;
+}
+
+.tarjeta-producto {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta-producto:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1) !important;
+}
+
+.img-producto-card {
+  height: 180px;
+  object-fit: cover;
+}
+
+.titulo-producto:hover {
+  color: #2E8B57;
+}

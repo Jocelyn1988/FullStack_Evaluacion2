@@ -1,0 +1,38 @@
+.seccion-titulo-catalogo {
+  letter-spacing: 1px;
+  color: #333333;
+}
+
+.tarjeta-producto-catalogo {
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #ffffff;
+}
+
+.tarjeta-producto-catalogo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+}
+
+.img-catalogo {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.titulo-producto-link {
+  color: #333333;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.titulo-producto-link:hover {
+  color: #2E8B57;
+}
+
+.precio-producto-texto {
+  font-size: 1rem;
+  color: #1b5e20;
+}

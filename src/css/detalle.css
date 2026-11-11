@@ -1,0 +1,21 @@
+.imagen-detalle-principal {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.tarjeta-relacionado {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #ffffff;
+}
+
+.tarjeta-relacionado:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08) !important;
+}
+
+.img-relacionado {
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+}

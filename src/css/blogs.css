@@ -1,0 +1,16 @@
+.tarjeta-proximamente {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.titulo-proximamente {
+  color: #1b5e20;
+}
+
+.badge-proximamente {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  font-weight: 600;
+}
